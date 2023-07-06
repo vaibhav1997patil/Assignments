@@ -1,0 +1,3 @@
+console.log("7" > 7)  //checking the string "7" is greater than the number 7,  In this, the string "7" is coerced to a number. Since both sides are now numbers, the comparison becomes 7 > 7. This comparison is false because 7 is not greater than 7.
+console.log("2">"21")  //comparing two strings, "2" and "21". JavaScript compares strings character by character based on their Unicode values. In this case, the first character "2" is greater than "2", but the second character "1" is less than "2". Therefore, the comparison is false.
+console.log("KL">"S")  // comparing two strings, "KL" and "S". JavaScript compares the strings character by character based on their Unicode values. The first character "K" has a higher Unicode value than "S", so the comparison is true.
